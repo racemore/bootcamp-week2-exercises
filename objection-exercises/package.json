@@ -13,7 +13,7 @@
   "dependencies": {
     "casual": "^1.6.2",
     "dotenv": "^8.2.0",
-    "knex": "^0.20.7",
+    "knex": "^0.20.15",
     "objection": "^2.1.2",
     "pg": "^7.17.1"
   },

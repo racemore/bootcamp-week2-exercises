@@ -10,7 +10,7 @@ The task: Under Design.md, explain and outline how your relational database will
 Now that we've planned out the structure of our database, let's build it! To allow us to see our database in real time, download [Postico](https://eggerapps.at/postico/) if you're on MacOS and [DBeaver](https://dbeaver.io) otherwise. Next, we need to actually create a Database. We'll host our database in cloud with ElephantSQL:
 
   - Sign up for a free personal account [here](https://customer.elephantsql.com/login). There is also a log in with Github option.
-  - Once you have signed in, click the **Create New Instance** button on the top right.
+  - Once you have signed in, click the **Create New Instance** button on the top left.
   - Add a name, probably something like `app-name-db` and keep it on the free `Tiny Turtle` plan. You shouldn't need to add any payment information! Press **Select Region**.
   - Select the `US-East-1` as the region and press **Review**. and then **Create Instance**.
   - This should take you back to your list of your created instances (databases). Click on the one you just made.

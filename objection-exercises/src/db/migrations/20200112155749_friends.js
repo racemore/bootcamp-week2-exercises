@@ -5,7 +5,7 @@ exports.up = knex => knex.schema.createTable('relations', table => {
     .notNullable()
     .primary()
     .defaultTo(knex.raw('uuid_generate_v4()'))
-
+  
   table
     .uuid('parentId')
     .references('users.id')
